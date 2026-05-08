@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  6 16:51:06 2026
+# Process ID: 23544
+# Current directory: D:/Verilog_2026_Project/Master_SPI_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19448 D:\Verilog_2026_Project\Master_SPI_I2C\Master_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/Master_SPI_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/Master_SPI_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/Master_SPI_I2C/Master_SPI_I2C.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Master_SPI_I2C' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/../Z_ip_repo'; using path 'D:/Verilog_2026_Project/Z_ip_repo' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Verilog_2026_Project/Z_ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1105.000 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+[Wed May  6 16:51:32 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/Master_SPI_I2C/Master_SPI_I2C.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Wed May  6 16:52:57 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/Master_SPI_I2C/Master_SPI_I2C.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed May  6 16:54:20 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/Master_SPI_I2C/Master_SPI_I2C.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/XSA/design_1_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/XSA/design_1_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2020.2/data\embeddedsw) loading 0 seconds
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/XSA/design_1_wrapper.xsa
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 18:31:42 2026...

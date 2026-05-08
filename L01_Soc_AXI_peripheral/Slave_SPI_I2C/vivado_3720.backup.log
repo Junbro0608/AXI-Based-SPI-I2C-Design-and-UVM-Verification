@@ -1,0 +1,290 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  4 18:52:42 2026
+# Process ID: 3720
+# Current directory: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12396 D:\Verilog_2026_Project\99_presentation\L05_Micro_Blaze_SPI_I2C\Slave_SPI_I2C\Slave_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-06:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1084.484 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B822AAA}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B820D6A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+current_hw_device [get_hw_devices xc7a35t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: slave_top
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 3099.676 ; gain = 255.711
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'slave_top' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'i2c_salve' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+	Parameter SLA bound to: 7'b0010010 
+INFO: [Synth 8-226] default block is never used [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_salve' (1#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fnd_controller' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter' (2#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (3#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6157] synthesizing module 'counter_4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4' (4#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1' (5#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2x4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2x4' (6#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6157] synthesizing module 'bcd' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'bcd' (7#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'fnd_controller' (8#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'slave_top' (9#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3147.750 ; gain = 303.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3165.668 ; gain = 321.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3165.668 ; gain = 321.703
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3165.668 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3264.676 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 3407.773 ; gain = 563.809
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:25 . Memory (MB): peak = 3407.773 ; gain = 847.387
+add_files -norecurse D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3449.828 ; gain = 8.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'slave_top' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'i2c_slave2' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv:3]
+	Parameter SLAVE_ADDR bound to: 7'b0100010 
+INFO: [Synth 8-6157] synthesizing module 'edge_detector' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv:156]
+INFO: [Synth 8-6155] done synthesizing module 'edge_detector' (1#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv:156]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_slave2' (2#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fnd_controller' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter' (3#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (4#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6157] synthesizing module 'counter_4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4' (5#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1' (6#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2x4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2x4' (7#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6157] synthesizing module 'bcd' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'bcd' (8#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'fnd_controller' (9#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'slave_top' (10#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3481.777 ; gain = 40.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3500.699 ; gain = 59.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3500.699 ; gain = 59.453
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3515.172 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 3515.172 ; gain = 73.926
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3515.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'slave_top' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'i2c_salve' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+	Parameter SLA bound to: 7'b0010010 
+INFO: [Synth 8-226] default block is never used [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:64]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_salve' (1#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fnd_controller' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter' (2#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (3#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6157] synthesizing module 'counter_4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4' (4#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1' (5#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2x4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2x4' (6#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6157] synthesizing module 'bcd' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'bcd' (7#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'fnd_controller' (8#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'slave_top' (9#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3515.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3519.746 ; gain = 4.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3519.746 ; gain = 4.574
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3534.660 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3534.660 ; gain = 19.488
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May  4 19:53:30 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/synth_1/runme.log
+[Mon May  4 19:53:30 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3557.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'slave_top' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'i2c_salve' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+	Parameter SLA bound to: 7'b0010010 
+INFO: [Synth 8-226] default block is never used [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:64]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_salve' (1#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fnd_controller' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digit_splitter' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6155] done synthesizing module 'digit_splitter' (2#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:152]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (3#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:63]
+INFO: [Synth 8-6157] synthesizing module 'counter_4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4' (4#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:91]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1' (5#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:130]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2x4' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2x4' (6#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:112]
+INFO: [Synth 8-6157] synthesizing module 'bcd' [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'bcd' (7#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'fnd_controller' (8#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'slave_top' (9#1) [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3557.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3561.379 ; gain = 3.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3561.379 ; gain = 3.723
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3575.785 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/constrs_1/imports/Basys3/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3575.785 ; gain = 18.129
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 21:59:23 2026...

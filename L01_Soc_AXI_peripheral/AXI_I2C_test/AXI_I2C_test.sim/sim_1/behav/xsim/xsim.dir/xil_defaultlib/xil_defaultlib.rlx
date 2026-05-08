@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Verilog_2026_Project/04_Vitis_IDE/Z00_ip_repo/I2C_master_1.0/hdl/I2C_master_v1_0.v,1777893315,verilog,,D:/Verilog_2026_Project/04_Vitis_IDE/Z00_ip_repo/I2C_master_1.0/hdl/I2C_master_v1_0_S00_AXI.v,,I2C_Master;I2C_master_v1_0;i2c_master,,,,,,,,
+D:/Verilog_2026_Project/04_Vitis_IDE/Z00_ip_repo/I2C_master_1.0/hdl/I2C_master_v1_0_S00_AXI.v,1778049521,verilog,,D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/AXI_I2C_test/AXI_I2C_test.srcs/sim_1/new/tb_I2C_master.v,,I2C_master_v1_0_S00_AXI,,,,,,,,
+D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/AXI_I2C_test/AXI_I2C_test.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/AXI_I2C_test/AXI_I2C_test.srcs/sim_1/new/tb_I2C_master.v,1778049993,verilog,,,,tb_I2C_master,,,,,,,,

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../04_Vitis_IDE/Z00_ip_repo/I2C_master_1.0/hdl/I2C_master_v1_0.v" \
+"../../../../../../../04_Vitis_IDE/Z00_ip_repo/I2C_master_1.0/hdl/I2C_master_v1_0_S00_AXI.v" \
+"../../../../AXI_I2C_test.srcs/sim_1/new/tb_I2C_master.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

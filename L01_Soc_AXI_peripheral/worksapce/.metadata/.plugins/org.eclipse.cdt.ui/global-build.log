@@ -1,0 +1,20 @@
+Nothing to build in platform 'design_1_wrapper'
+
+17:11:23 **** Incremental Build of configuration Debug for project SPI_I2C ****
+make all 
+'Building file: ../src/ap/I2C/I2C_test.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ap/I2C/I2C_test.o" -ID:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ap/I2C/I2C_test.d" -MT"src/ap/I2C/I2C_test.o" -o "src/ap/I2C/I2C_test.o" "../src/ap/I2C/I2C_test.c"
+'Finished building: ../src/ap/I2C/I2C_test.c'
+' '
+'Building target: SPI_I2C.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "SPI_I2C.elf"  ./src/driver/SPI/SPI.o  ./src/driver/LED/LED.o  ./src/driver/I2C/I2C.o  ./src/driver/FND/FND.o  ./src/driver/Button/button.o  ./src/common/common.o  ./src/ap/Watch/Watch.o  ./src/ap/UpCounter/UpCounter.o  ./src/ap/SPI/SPI_test.o  ./src/ap/I2C/I2C_test.o  ./src/ap/Interrupt.o ./src/ap/ap_main.o  ./src/HAL/TMR/TMR.o  ./src/HAL/GPIO/GPIO.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: SPI_I2C.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size SPI_I2C.elf  |tee "SPI_I2C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13756	    336	   3332	  17424	   4410	SPI_I2C.elf
+'Finished building: SPI_I2C.elf.size'
+' '

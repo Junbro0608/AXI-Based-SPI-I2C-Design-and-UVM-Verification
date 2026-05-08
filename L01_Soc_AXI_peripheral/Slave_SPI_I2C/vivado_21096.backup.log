@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  4 17:49:05 2026
+# Process ID: 21096
+# Current directory: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25244 D:\Verilog_2026_Project\99_presentation\L05_Micro_Blaze_SPI_I2C\Slave_SPI_I2C\Slave_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.gen/sources_1', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/fnd_controller.v', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/fnd_controller.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/i2c_salve.sv', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/i2c_salve.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/spi_slave.sv', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/spi_slave.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/slave_top.sv', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation_project/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/slave_top.sv'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+[Mon May  4 17:49:33 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/synth_1/runme.log
+[Mon May  4 17:49:33 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/fnd_controller.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/i2c_salve.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/slave_top.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/spi_slave.sv] -no_script -reset -force -quiet
+remove_files  {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/fnd_controller.v D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/i2c_salve.sv D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/slave_top.sv D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.src/source_1/spi_slave.sv}
+add_files -norecurse {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/spi_slave.sv D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_salve.sv D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/fnd_controller.v D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/slave_top.sv}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon May  4 17:50:15 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/synth_1/runme.log
+[Mon May  4 17:50:15 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-06:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.211 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B820D6A}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B822AAA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+current_hw_device [get_hw_devices xc7a35t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2611.680 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 18:47:52 2026...

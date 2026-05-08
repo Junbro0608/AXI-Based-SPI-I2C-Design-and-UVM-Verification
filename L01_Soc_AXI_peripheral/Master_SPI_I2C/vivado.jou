@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  6 16:51:06 2026
+# Process ID: 23544
+# Current directory: D:/Verilog_2026_Project/Master_SPI_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19448 D:\Verilog_2026_Project\Master_SPI_I2C\Master_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/Master_SPI_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/Master_SPI_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/Master_SPI_I2C/Master_SPI_I2C.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/XSA/design_1_wrapper.xsa

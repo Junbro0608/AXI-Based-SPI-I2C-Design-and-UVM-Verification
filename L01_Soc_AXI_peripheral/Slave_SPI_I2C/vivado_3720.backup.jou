@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  4 18:52:42 2026
+# Process ID: 3720
+# Current directory: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12396 D:\Verilog_2026_Project\99_presentation\L05_Micro_Blaze_SPI_I2C\Slave_SPI_I2C\Slave_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.xpr
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B822AAA}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B820D6A}
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+current_hw_device [get_hw_devices xc7a35t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+add_files -norecurse D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.srcs/source_1/i2c_slave2.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+refresh_design

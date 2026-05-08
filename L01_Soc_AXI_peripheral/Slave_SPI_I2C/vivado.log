@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  6 17:01:18 2026
+# Process ID: 24484
+# Current directory: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15688 D:\Verilog_2026_Project\99_ppt\L05_AXI_SPI_I2C\Slave_I2C\Slave_SPI_I2C.xpr
+# Log file: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/vivado.log
+# Journal file: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.gen/sources_1', nor could it be found using path 'D:/Verilog_2026_Project/99_presentation/L05_Micro_Blaze_SPI_I2C/Slave_SPI_I2C/Slave_SPI_I2C.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-06:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B822AAA}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210183B822AAA
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B820D6A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+current_hw_device [get_hw_devices xc7a35t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed May  6 17:03:05 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/synth_1/runme.log
+[Wed May  6 17:03:05 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2847.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3527.059 ; gain = 0.000
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3527.059 ; gain = 942.371
+INFO: [Common 17-344] 'open_run' was cancelled
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B820D6A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed May  6 17:17:06 2026] Launched synth_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/synth_1/runme.log
+[Wed May  6 17:17:06 2026] Launched impl_1...
+Run output will be captured here: D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0_1]
+set_property PROGRAM.FILE {D:/Verilog_2026_Project/99_ppt/L05_AXI_SPI_I2C/Slave_I2C/Slave_SPI_I2C.runs/impl_1/slave_top.bit} [get_hw_devices xc7a35t_0_1]
+program_hw_devices [get_hw_devices xc7a35t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 17:58:55 2026...

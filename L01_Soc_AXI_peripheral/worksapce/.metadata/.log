@@ -1,0 +1,468 @@
+!SESSION 2026-05-07 09:23:39.964 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\Verilog_2026_Project\99_PPT\L05_AXI_SPI_I2C\worksapce\.metadata\.bak_0.log
+Created Time: 2026-05-07 09:24:26.761
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 09:24:26.761
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_SPI_I2C-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 09:24:26.761
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching Debugger_SPI_I2C-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 09:24:26.908
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_SPI_I2C-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 09:24:55.967
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-107
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 09:24:55.973
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-107
+!SESSION 2026-05-07 16:48:29.174 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2026-05-07 16:48:56.105
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.541
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.541
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.559
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.559
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.564
+!MESSAGE XSCT Command: [setws D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:48:59.564
+!MESSAGE XSCT command with result: [setws D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:02.028
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:02.564
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:02.564
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:02.571
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.2/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:40.488
+!MESSAGE XSCT Command: [platform read {D:\Verilog_2026_Project\99_PPT\L05_AXI_SPI_I2C\worksapce\design_1_wrapper\platform.spr}], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:40.502
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-3: Initializing hardware specification UI...
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-07 16:49:41.156
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-07 16:49:41.156
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-07 16:49:41.156
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:42.417
+!MESSAGE XSCT command with result: [platform read {D:\Verilog_2026_Project\99_PPT\L05_AXI_SPI_I2C\worksapce\design_1_wrapper\platform.spr}], Result: [null, ]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:42.417
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-3: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:42.417
+!MESSAGE XSCT Command: [platform active {design_1_wrapper}], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:49:42.417
+!MESSAGE XSCT command with result: [platform active {design_1_wrapper}], Result: [null, ]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.884
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.887
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa]. Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.887
+!MESSAGE XSCT Command: [::scw::regenerate_psinit D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.887
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.889
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.911
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss]. Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.916
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss ], Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.920
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss ], Result: [null, ]. Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.922
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.924
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-5: Initializing 'standalone_microblaze_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.924
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.936
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_7": {"name": "freertos10_xilinx",
+"version": "1.7",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.3.0",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_7",
+},
+"standalone_v7_3": {"name": "standalone",
+"version": "7.3",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/lib/bsp/standalone_v7_3",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.954
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.954
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa microblaze_0], Result: [null, GPIO_0 GPIO_1 GPIO_2 I2C_master_0 SIP_master_0 TMR_0 TMR_1 TMR_2 axi_uartlite_0 microblaze_0_axi_intc microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.964
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.970
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Result: [null, {"GPIO_0": {"name": "GPIO",
+"ver": "1.0",
+},
+"GPIO_1": {"name": "GPIO",
+"ver": "1.0",
+},
+"GPIO_2": {"name": "GPIO",
+"ver": "1.0",
+},
+"I2C_master_0": {"name": "I2C_master",
+"ver": "1.0",
+},
+"SIP_master_0": {"name": "SIP_master",
+"ver": "1.0",
+},
+"TMR_0": {"name": "TMR",
+"ver": "1.0",
+},
+"TMR_1": {"name": "TMR",
+"ver": "1.0",
+},
+"TMR_2": {"name": "TMR",
+"ver": "1.0",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.5",
+},
+"microblaze_0_axi_intc": {"name": "intc",
+"ver": "3.12",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.5",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.5",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.12",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:00.970
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.024
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"GPIO_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"GPIO_v1_0": {"name": "GPIO",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/GPIO_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"GPIO_1": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"GPIO_v1_0": {"name": "GPIO",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/GPIO_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"GPIO_2": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"GPIO_v1_0": {"name": "GPIO",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/GPIO_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"I2C_master_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"I2C_master_v1_0": {"name": "I2C_master",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/I2C_master_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"SIP_master_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"SIP_master_v1_0": {"name": "SIP_master",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/SIP_master_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"TMR_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"TMR_v1_0": {"name": "TMR",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/TMR_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"TMR_1": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"TMR_v1_0": {"name": "TMR",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/TMR_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"TMR_2": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"TMR_v1_0": {"name": "TMR",
+"version": "1.0",
+"repo": "D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/drivers/TMR_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_5": {"name": "uartlite",
+"version": "3.5",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"clk_wiz_v1_4": {"name": "clk_wiz",
+"version": "1.4",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_5": {"name": "uartlite",
+"version": "3.5",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"cpu_v2_12": {"name": "cpu",
+"version": "2.12",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_12",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_intc": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"intc_v3_12": {"name": "intc",
+"version": "3.12",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_12",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_5": {"name": "bram",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_5": {"name": "bram",
+"version": "4.5",
+"repo": "C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_xlconcat": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.039
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.044
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.044
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.044
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/hw/design_1_wrapper.xsa D:/Verilog_2026_Project/99_PPT/L05_AXI_SPI_I2C/worksapce/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.054
+!MESSAGE XSCT Command: [bsp reload], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-07 16:51:01.074
+!MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-07 16:51:23.964
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: bsp_settings_file, Group preference: platform_editor
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-07 16:51:23.964
+!MESSAGE Preference loaded using local preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-07 16:51:23.964
+!MESSAGE Preference loaded using group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-07 16:51:23.964
+!MESSAGE Workspace path used is: D:\Verilog_2026_Project\99_PPT\L05_AXI_SPI_I2C\worksapce
