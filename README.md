@@ -33,7 +33,7 @@
 - **Driver**: AXI Write/Read 트랜잭션 발생 및 SPI/I2C 제어 시퀀스 실행.
 - **Monitor**: AXI 인터페이스와 Serial 인터페이스의 유효 데이터 캡처.
 - **Scoreboard**: `axi_wdata`와 `slv_rx_data`, `axi_rdata`와 `slv_tx_data`를 비교하여 데이터 무결성 검증.
-- **Result**: Random Test Case를 통한 시뮬레이션 및 Verdi를 이용한 파형 분석 수행.
+- **Result**: 0~255 모든 1Byte 테스트 통한 시뮬레이션 및 Verdi를 이용한 파형 분석 수행.
 
 ## 🚀 하드웨어 합성 및 결과
 - **Basys3 FPGA 합성**: Vivado를 이용한 비트스트림 생성 및 보드 다운로드.
